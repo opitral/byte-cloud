@@ -1,0 +1,12 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: byte-cloud
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/byte_cloud
+    username: user
+    password: password
+    driver-class-name: org.postgresql.Driver
